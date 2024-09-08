@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(header.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .resume-container {
+    background-color: rgb(248, 243, 243);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(237, 236, 241, 0.1);
+    text-align: center;
+  
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #0b0b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #75a3e0;
+  }
+  
