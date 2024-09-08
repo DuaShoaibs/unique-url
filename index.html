@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Resume Builder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="resume-container">
+    <h2>Create Your Resume Link</h2>
+    <input type="text" id="usernameInput" placeholder="Enter your username" />
+    <button id="generateLinkBtn">Generate Resume Link</button>
+
+    <div id="shareSection" style="display: none;">
+      <p>Your unique resume link: <span id="resumeLink"></span></p>
+      <button id="copyLinkBtn">Copy Link</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
